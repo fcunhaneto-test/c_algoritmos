@@ -1,8 +1,3 @@
-/*
- * Ordenar array de inteiros pelo método selection sort.
- * Algoritmo mais eficiente que o buble sort.
- * Sendo que para pequenas qunatidades supera até o quick sort.
- */
 #include <stdio.h>
 
 #include "selection_sort_int.h"

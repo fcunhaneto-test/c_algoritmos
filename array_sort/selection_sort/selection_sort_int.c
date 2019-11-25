@@ -1,5 +1,10 @@
 /*
- * Ordenação de um array de valores inteiros pelo método selection sort.
+ * Ordenar array de inteiros pelo método selection sort.
+ * Algoritmo mais eficiente que o buble sort.
+ * Sendo que para pequenas qunatidades supera até o quick sort.
+ * O(n) melhor caso (Quando já estão ordenados).
+ * O(n²) caso medio.
+ * O(n²) pior caso.
  */
 
 void sort_int(int *arr, int max ) {
