@@ -6,8 +6,8 @@
  * O(n²) caso medio.
  * O(n²) pior caso.
  */
- */
-void bubble_sort(int *arr, int int_max) {
+
+void bublle_sort(int *arr, int int_max) {
     int i = int_max - 1;
     int j, aux;
     do {

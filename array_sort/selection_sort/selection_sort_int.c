@@ -7,7 +7,7 @@
  * O(n²) pior caso.
  */
 
-void sort_int(int *arr, int max ) {
+void selection_sort(int *arr, int max ) {
     int i, j, menor, aux;
     int m = max - 1;
     for(i = 0; i < m; i++) {
