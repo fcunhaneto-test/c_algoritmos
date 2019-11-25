@@ -7,7 +7,7 @@
  * O(n²) pior caso.
  */
  */
-void sort_integer(int *arr, int int_max) {
+void bubble_sort(int *arr, int int_max) {
     int i = int_max - 1;
     int j, aux;
     do {
