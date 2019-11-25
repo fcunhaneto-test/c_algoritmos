@@ -4,7 +4,7 @@
  * o problema é que ele consome muita memoria.
  * O(n(log(n)) todoa os caso.
  */
-#include <math.h>
+#include <stdlib.h>
 
 void sort_int(int *arr, int ini, int fim) {
     int meio;
@@ -16,6 +16,12 @@ void sort_int(int *arr, int ini, int fim) {
     }
 }
 
-void merge_int(int *arr, int ini, int fim) {
-    
+void merge_int(int *arr, int ini, int meio, int fim) {
+    int p1, p2, tamanho, i, j, k;
+    int fim1 = 0, fim2 =0;
+    int *temp = malloc(tamanho * sizeof(int));
+    tamanho = fim - ini + 1;
+    p1 = ini;
+    p2 = meio + 1;
+    if(temp != NULL)
 }
