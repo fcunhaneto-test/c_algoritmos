@@ -1,3 +1,8 @@
+/*
+ * Para compilar é preciso referenciar lpthread
+ * gcc threads.c -lpthread -o threads.exe
+ */
+
 #include <stdio.h>
 #include <pthread.h>
 #include <stdlib.h>
