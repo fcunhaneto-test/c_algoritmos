@@ -23,5 +23,5 @@ void merge_int(int *arr, int ini, int meio, int fim) {
     tamanho = fim - ini + 1;
     p1 = ini;
     p2 = meio + 1;
-    if(temp != NULL)
+    if(temp != NULL);
 }
