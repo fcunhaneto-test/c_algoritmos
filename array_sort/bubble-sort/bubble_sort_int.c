@@ -1,6 +1,7 @@
 
 /*
  * Ordenar array de inteiros pelo método bubble sort.
+ * Algoritmo menos eficiente.
  */
 void sort_integer(int *arr, int int_max) {
     int i = int_max - 1;
